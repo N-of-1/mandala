@@ -1,4 +1,4 @@
-extern crate mandala_quicksilver;
+extern crate mandala;
 
 use mandala::{Mandala, MandalaState};
 use quicksilver::{
