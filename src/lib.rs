@@ -191,10 +191,10 @@ impl Mandala {
         debug_assert!(target_value.is_finite());
 
         let current_value = self.current_value(current_time);
-        println!(
-            "Start transition current: {}  target: {}",
-            current_value, target_value
-        );
+        // println!(
+        //     "Start transition current: {}  target: {}",
+        //     current_value, target_value
+        // );
 
         self.current_transition = MandalaTransition::new(
             current_time,
