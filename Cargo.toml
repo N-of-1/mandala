@@ -9,9 +9,10 @@ edition = "2018"
 [dependencies]
 svg = "0.6"
 log = "0.4"
+quicksilver ="0.4.0-alpha0.5"
 
 # Uncomment this block unless targeting ARM
-quicksilver = {git = "https://github.com/paulirotta/quicksilver.git", branch="image_fix_and_add"}
+#quicksilver = {git = "https://github.com/paulirotta/quicksilver.git", branch="image_fix_and_add"}
 
 # Uncomment this block if targeting ARM
 #quicksilver = {git = "https://github.com/paulirotta/quicksilver.git", branch="arm_image_fix_and_add"}
